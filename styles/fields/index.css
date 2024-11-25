@@ -77,18 +77,18 @@ input {
     color: #78716c;
 
     display: inline-block;
-    margin-top: .25rem;
+    margin-top: 0.25rem;
   }
 
   &[required] + .error {
     display: flex;
     align-items: center;
-    gap: .25rem;
+    gap: 0.25rem;
 
     font: var(--text-sm);
     color: var(--semantic-error);
 
-    margin-top: .25rem;
+    margin-top: 0.25rem;
   }
 
   &:not(:focus):valid + .error {

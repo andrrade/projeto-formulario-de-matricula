@@ -23,7 +23,8 @@
     color: #a8a29e;
   }
 
-  &:hover, &:has(input:focus) {
+  &:hover,
+  &:has(input:focus) {
     border-width: 2px;
     border-color: var(--stroke-highlight);
     background-color: var(--surface-secondary);
@@ -33,7 +34,7 @@
     }
 
     & svg path {
-        stroke: var(--stroke-highlight);
+      stroke: var(--stroke-highlight);
     }
   }
 }
