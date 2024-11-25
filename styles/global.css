@@ -27,6 +27,7 @@ body {
 
   font: var(--text);
   color: var(--text-secondary);
+  min-height: 100dvh;
 }
 
 h1,
