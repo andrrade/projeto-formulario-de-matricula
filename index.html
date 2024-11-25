@@ -12,29 +12,98 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
     <div id="app">
       <main>
         <div class="main-container">
           <div class="back">
-            <img src="assets/icons/arrow-left-02.svg" alt="Ícone de seta apontando para a esquerda (opção de voltar)">
+            <img
+              src="assets/icons/arrow-left-02.svg"
+              alt="Ícone de seta apontando para a esquerda (opção de voltar)"
+            />
             <span>Voltar</span>
           </div>
 
           <h1>Formulário de matrícula</h1>
-          <p>Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.</p>
+          <p>
+            Preencha os dados abaixo para matricular seu filho na escola de
+            educação infantil Estrelas do Amanhã.
+          </p>
+
+          <form method="post" enctype="multipart/form-data">
+            <fieldset class="child-info">
+              <legend>Informações da criança</legend>
+              <div class="input-wrapper">
+                <label for="fullname">Nome completo</label>
+                <input
+                  id="fullname"
+                  name="fullname"
+                  type="text"
+                  placeholder="Qual o nome da criança"
+                />
+              </div>
+
+              <div class="input-wrapper">
+                <label for="birth">Data de nascimento</label>
+                <input type="date" id="birth" name="birth" lang="pt-BR" />
+              </div>
+
+              <div class="select-wrapper">
+                <label for="gender">Sexo</label>
+                <select name="gender" id="gender">
+                  <option value="female">Feminino</option>
+                  <option value="male">Masculino</option>
+                  <option value="na">Prefiro não responder</option>
+                </select>
+              </div>
+
+              <div class="textarea-wrapper">
+                <label for="medical-info">Informações médicas</label>
+                <textarea
+                  name="medical-info"
+                  id="medical-info"
+                  cols="30"
+                  rows="10"
+                  placeholder="A criança possui alguma condição médica que a escola deve estar ciente? (Se sim, especifique)"
+                ></textarea>
+              </div>
+
+              <div class="droparea-wrapper">
+                <label for="birth-file">Certidão de Nascimento</label>
+                <input type="file" name="birth-file" id="birth-file" />
+                <img
+                  src="assets/icons/cloud-upload.svg"
+                  alt="Ícone de upload representado por um nuvem com uma seta para cima"
+                />
+                <p>
+                  Clique aqui para <br />
+                  selecionar os arquivos
+                </p>
+              </div>
+            </fieldset>
+          </form>
         </div>
       </main>
 
       <aside>
         <div class="aside-container">
           <header>
-            <img src="assets/logo.svg" alt="Logo com 4 estrelas laranjas do lado esquerdo, uma maior e 3 ao redor dela, do lado direito das estrelas está escrito 'Estrelas do Amanhã' com uma fonte divertida e simples">
+            <img
+              src="assets/logo.svg"
+              alt="Logo com 4 estrelas laranjas do lado esquerdo, uma maior e 3 ao redor dela, do lado direito das estrelas está escrito 'Estrelas do Amanhã' com uma fonte divertida e simples"
+            />
             <h2>Porque cada momento de <span>aprendizado</span> conta</h2>
-            <p>Inscreva seu filho em nossa escola e veja-o florescer em um ambiente acolhedor, seguro e estimulante.</p>
+            <p>
+              Inscreva seu filho em nossa escola e veja-o florescer em um
+              ambiente acolhedor, seguro e estimulante.
+            </p>
           </header>
 
-          <img src="assets/Illustration.svg" alt="Ilustração de uma sala de aula com uma professora mostrando um desenho de uma estrela laranja (remetendo à logo de 'Estrelas do Amanhã'). Também há 4 alunos vendo esse desenho e parecem estar interessados em aprender">
+          <img
+            src="assets/Illustration.svg"
+            alt="Ilustração de uma sala de aula com uma professora mostrando um desenho de uma estrela laranja (remetendo à logo de 'Estrelas do Amanhã'). Também há 4 alunos vendo esse desenho e parecem estar interessados em aprender"
+          />
         </div>
       </aside>
     </div>
