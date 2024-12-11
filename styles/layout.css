@@ -3,7 +3,7 @@
   grid-template-columns: 51.25% 48.75%;
 
   height: 100vh;
-  overflow: hidden;
+  overflow: auto;
 }
 
 main {
@@ -29,6 +29,7 @@ main {
 }
 
 aside {
+  overflow: hidden;
   background-color: var(--surface-secondary);
   padding: 4rem;
 
@@ -37,6 +38,7 @@ aside {
 
     & > img {
       margin-top: 2rem;
+      width: 420px;
     }
   }
 
