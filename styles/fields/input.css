@@ -32,6 +32,7 @@ input[type="date"] {
   position: relative;
   &::-webkit-calendar-picker-indicator {
     opacity: 0;
+    cursor: pointer;
   }
 
   &::before {
@@ -66,6 +67,7 @@ input {
     background-color: var(--surface-disabled);
     border: 1px solid var(--stroke-default);
     color: var(--text-primary);
+    cursor: not-allowed;
   }
 
   &:invalid {
@@ -94,4 +96,8 @@ input {
   &:not(:focus):valid + .error {
     display: none;
   }
+}
+
+#gender:hover {
+  cursor: pointer;
 }
