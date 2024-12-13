@@ -1,4 +1,4 @@
-# Projeto - Portal de Notícias
+# Projeto - Formulário de Matrícula
 
 <p align="center">
   <img alt="Logo da Rocketseat" src="https://github.com/user-attachments/assets/39908634-2aee-4435-8513-fb952559fe3c" width="200px" />
