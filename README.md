@@ -46,7 +46,7 @@ Esse projeto foi desenvolvido utilizando:
 
 ## 🔗 Link do Projeto
 
-Para acessar o projeto <a href="https://andrrade.github.io/projeto-formulario-de-matricula/" target="_blank">Clique Aqui</a>.
+Para acessar o projeto <a href="https://projeto-formulario-de-matricula.vercel.app/" target="_blank">Clique Aqui</a>.
 
 
 ## 📝 Licença
